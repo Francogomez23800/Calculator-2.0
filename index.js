@@ -1,6 +1,6 @@
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
-
+///calculadora
 buttons.forEach((item)=>{
     item.onclick=()=>{
         if (item.id=="clear"){
